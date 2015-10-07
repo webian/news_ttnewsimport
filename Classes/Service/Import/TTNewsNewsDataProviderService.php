@@ -210,7 +210,7 @@ class TTNewsNewsDataProviderService implements \Tx_News_Service_Import_DataProvi
 					'title' => $titles[$i],
 					'alt' => $alts[$i],
 					'caption' => $captions[$i],
-					'image' => 'uploads/pics/' . $image,
+					'image' => 'fileadmin/user_upload/Archivio/News/' . $image,
 					'type' => 0,
 					'showinpreview' => (int)$count == 0
 				);
